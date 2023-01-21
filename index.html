@@ -34,13 +34,19 @@
         <option value="prefer not to say">prefer not to say</option>
         <option value="other">other</option>
       </select>
-      <label for="first"></label>
-      <input type="radio" name="radio" id="first" value="30" />
-      <label for=" second"></label>
-      <input type="radio" name="radio" id="second" value="30" />
-      <input type="checkbox" value="10" />
-      <input type="checkbox" value="20" />
-      <input type="checkbox" value="25" />
+      <label for="first">Chose a value</label>
+      <div id="container">
+        <input type="radio" name="radio" id="first" value="30" />30
+        <label for=" second"></label>
+      <input type="radio" name="radio" id="second" value="10" />10
+      </div>
+      <label for="checkbox">Chose 2 or more values</label>
+      <div id="container-for-checkboxes">
+        <input type="checkbox" value="10" />10
+        <input type="checkbox" value="20" />20
+        <input type="checkbox" value="25" />25
+      </div>
+      
 
       <label for="comments">Comments</label>
       <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
