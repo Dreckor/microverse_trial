@@ -14,11 +14,18 @@
 
     <form action="" id="survey-form">
       <label for="name" id="name-label">Name</label>
-      <input type="text" id="name" required placeholder="type your name"/>
+      <input type="text" id="name" required placeholder="type your name" />
       <label for="email" id="email-label">Email </label>
-      <input id="email" type="email" required placeholder="type your email"/>
+      <input id="email" type="email" required placeholder="type your email" />
       <label for="number" id="number-label">Number </label>
-      <input type="number" id="number" min="10" max="100" required placeholder="type a number"/>
+      <input
+        type="number"
+        id="number"
+        min="10"
+        max="100"
+        required
+        placeholder="type a number"
+      />
       <label for="dropdown">Select an option:</label>
       <select name="" id="dropdown" required>
         <option value="student">student</option>
@@ -27,6 +34,13 @@
         <option value="prefer not to say">prefer not to say</option>
         <option value="other">other</option>
       </select>
+      <label for="first"></label>
+      <input type="radio" name="radio" id="first" value="30" />
+      <label for=" second"></label>
+      <input type="radio" name="radio" id="second" value="30" />
+      <input type="checkbox" value="10" />
+      <input type="checkbox" value="20" />
+      <input type="checkbox" value="25" />
     </form>
     <script src="js/index.js"></script>
   </body>
